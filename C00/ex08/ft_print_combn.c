@@ -6,7 +6,7 @@
 /*   By: ismherna <ismherna@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 15:04:02 by ismherna          #+#    #+#             */
-/*   Updated: 2023/11/16 12:04:03 by ismherna         ###   ########.fr       */
+/*   Updated: 2023/11/16 12:49:51 by ismherna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,4 +78,12 @@ void	ft_print_combn(int nb)
 		}
 		ft_putout(nb, tab, 1);
 	}
+}
+int main(void)
+{
+    int n = 3;  // Puedes ajustar el valor de 'n' según la cantidad de dígitos que desees en cada combinación.
+
+    ft_print_combn(n);
+
+    return (0);
 }
